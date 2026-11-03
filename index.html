@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Smile Design Dental Clinic — عيادة سمايل ديزاين لطب الأسنان | مدينة نصر، القاهرة</title>
-<meta name="description" content="عيادة سمايل ديزاين لطب وتجميل الأسنان في مدينة نصر، القاهرة — زراعة أسنان، تقويم، تبييض، وتركيبات. احجز عبر واتساب.">
+<title>Algo Smile — د. حازم طاحون | طب وتجميل وزراعة الأسنان — مدينة نصر، القاهرة</title>
+<meta name="description" content="عيادة ألجو سمايل Algo Smile — د. حازم طاحون، أخصائي تجميل وزراعة الأسنان بخبرة أكثر من 20 عاماً. زراعة، فينير، تقويم، تبييض بالليزر وتركيبات خلال 24 ساعة — 26 شارع أحمد فخري، مدينة نصر، القاهرة. احجز عبر واتساب.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦷</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -129,13 +129,24 @@ footer li{list-style:none;font-size:14px;margin-bottom:8px}
 .chat-in button{background:var(--blue);color:#fff;border:none;padding:0 20px;font-weight:800;cursor:pointer;font-family:inherit}
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
 .reveal.in{opacity:1;transform:none}
+.socials{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.socials a{background:var(--azure);color:var(--deep);font-weight:800;font-size:13.5px;padding:7px 14px;border-radius:999px;transition:.2s}
+.socials a:hover{background:var(--blue);color:#fff}
+.doc-card{display:flex;gap:16px;align-items:center;background:var(--soft);border:1px solid #e3edf7;border-radius:18px;padding:18px;margin-top:18px}
+.doc-av{width:74px;height:74px;border-radius:50%;background:linear-gradient(135deg,var(--blue),#39a0f5);color:#fff;display:flex;align-items:center;justify-content:center;font-size:27px;font-weight:900;flex:none;box-shadow:0 10px 22px rgba(11,107,199,.3)}
+.doc-card b{color:var(--deep);font-size:18px;display:block}
+.doc-card span{color:var(--mut);font-size:14px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.chips i{font-style:normal;background:#fff;border:1px solid #d7e5f2;color:var(--blue);font-size:12.5px;font-weight:800;padding:3px 10px;border-radius:999px}
+footer .socials a{background:rgba(255,255,255,.12);color:#d6e9fb}
+footer .socials a:hover{background:#fff;color:var(--deep)}
 @media(max-width:900px){.nav nav{display:none}.hero .grid,.about .grid,.book .grid{grid-template-columns:1fr}.cards,.testis{grid-template-columns:1fr}.spot{grid-template-columns:1fr;text-align:center;justify-items:center}.stats{grid-template-columns:repeat(3,1fr)}}
 </style>
 </head>
 <body>
 <header>
   <div class="wrap nav">
-    <a class="logo" href="#"><span class="tooth"><svg viewBox="0 0 24 24"><path d="M12 3C9.5 3 8.6 4.6 6.4 4.3 4 4 2.6 5.9 2.9 8.6c.2 2.2 1.2 3.8 1.8 6 .5 1.8.8 6.4 2.7 6.4 1.7 0 1.4-3.4 3.1-3.4s1.4 3.4 3.1 3.4c1.9 0 2.2-4.6 2.7-6.4.6-2.2 1.6-3.8 1.8-6C21.4 5.9 20 4 17.6 4.3 15.4 4.6 14.5 3 12 3z"/></svg></span><span>Smile Design</span></a>
+    <a class="logo" href="#"><span class="tooth"><svg viewBox="0 0 24 24"><path d="M12 3C9.5 3 8.6 4.6 6.4 4.3 4 4 2.6 5.9 2.9 8.6c.2 2.2 1.2 3.8 1.8 6 .5 1.8.8 6.4 2.7 6.4 1.7 0 1.4-3.4 3.1-3.4s1.4 3.4 3.1 3.4c1.9 0 2.2-4.6 2.7-6.4.6-2.2 1.6-3.8 1.8-6C21.4 5.9 20 4 17.6 4.3 15.4 4.6 14.5 3 12 3z"/></svg></span><span>Algo Smile</span></a>
     <nav>
       <a href="#about" data-ar="عن العيادة" data-en="About">عن العيادة</a>
       <a href="#services" data-ar="خدماتنا" data-en="Services">خدماتنا</a>
@@ -153,35 +164,36 @@ footer li{list-style:none;font-size:14px;margin-bottom:8px}
 <div class="hero">
   <div class="wrap grid">
     <div>
-      <span class="badge" data-ar="عيادة طب وتجميل الأسنان — مدينة نصر، القاهرة" data-en="Dental & Cosmetic Clinic — Nasr City, Cairo">عيادة طب وتجميل الأسنان — مدينة نصر، القاهرة</span>
-      <h1 data-ar="ابتسامتك تستحق <span>تصميماً يليق بها</span>" data-en="Your smile deserves <span>a design worthy of it</span>">ابتسامتك تستحق <span>تصميماً يليق بها</span></h1>
-      <p data-ar="في Smile Design نجمع بين أحدث تقنيات طب الأسنان وخبرة طبية موثوقة: زراعة، تقويم، تبييض وتركيبات — في قلب مدينة نصر، وبخطوات حجز سهلة عبر واتساب." data-en="At Smile Design we combine the latest dental technology with trusted expertise: implants, orthodontics, whitening and prosthetics — in the heart of Nasr City, with easy WhatsApp booking.">في Smile Design نجمع بين أحدث تقنيات طب الأسنان وخبرة طبية موثوقة: زراعة، تقويم، تبييض وتركيبات — في قلب مدينة نصر، وبخطوات حجز سهلة عبر واتساب.</p>
+      <span class="badge" data-ar="ألجو سمايل — د. حازم طاحون | مدينة نصر، القاهرة" data-en="Algo Smile — Dr. Hazem Tahoun | Nasr City, Cairo">ألجو سمايل — د. حازم طاحون | مدينة نصر، القاهرة</span>
+      <h1 data-ar="ابتسامتك تبدأ من <span>Algo Smile</span>" data-en="Your smile starts at <span>Algo Smile</span>">ابتسامتك تبدأ من <span>Algo Smile</span></h1>
+      <p data-ar="مع د. حازم طاحون — أخصائي تجميل وزراعة الأسنان بخبرة تتجاوز 20 عاماً — نصمم ابتسامتك بأحدث التقنيات: زراعة وفينير وتركيبات خلال 24 ساعة، في قلب مدينة نصر، وحجز سهل عبر واتساب." data-en="With Dr. Hazem Tahoun — cosmetic & implant specialist with 20+ years of experience — we design your smile with the latest techniques: implants, veneers and crowns in 24 hours, in the heart of Nasr City, with easy WhatsApp booking.">مع د. حازم طاحون — أخصائي تجميل وزراعة الأسنان بخبرة تتجاوز 20 عاماً — نصمم ابتسامتك بأحدث التقنيات: زراعة وفينير وتركيبات خلال 24 ساعة، في قلب مدينة نصر، وحجز سهل عبر واتساب.</p>
       <div class="cta">
         <a class="btn wa" href="#book" data-ar="احجز عبر واتساب" data-en="Book on WhatsApp">احجز عبر واتساب</a>
         <a class="btn ghost" href="#services" data-ar="اكتشف خدماتنا" data-en="Explore services">اكتشف خدماتنا</a>
       </div>
       <div class="stats">
-        <div class="stat"><b>10+</b><span data-ar="سنوات خبرة" data-en="Years of experience">سنوات خبرة</span></div>
-        <div class="stat"><b>5000+</b><span data-ar="مريض سعيد" data-en="Happy patients">مريض سعيد</span></div>
-        <div class="stat"><b>98%</b><span data-ar="نسبة رضا المرضى" data-en="Patient satisfaction">نسبة رضا المرضى</span></div>
+        <div class="stat"><b>20+</b><span data-ar="عاماً من الخبرة" data-en="Years of experience">عاماً من الخبرة</span></div>
+        <div class="stat"><b>24h</b><span data-ar="تركيبات خلال 24 ساعة" data-en="Crowns in 24 hours">تركيبات خلال 24 ساعة</span></div>
+        <div class="stat"><b>1</b><span data-ar="جلسة واحدة لعلاج الجذور الرقمي" data-en="Single-visit digital root canal">جلسة واحدة لعلاج الجذور الرقمي</span></div>
       </div>
     </div>
-    <div class="heroimg"><img src="hero.webp" alt="Smile Design Dental Clinic"></div>
+    <div class="heroimg"><img src="hero.webp" alt="Algo Smile Clinic — Dr. Hazem Tahoun"></div>
   </div>
 </div>
 
 <section class="about" id="about">
   <div class="wrap grid">
-    <img src="patient.webp" alt="Happy patient at Smile Design">
+    <img src="patient.webp" alt="Happy patient at Algo Smile">
     <div>
-      <h2 data-ar="عن عيادة Smile Design" data-en="About Smile Design Clinic">عن عيادة Smile Design</h2>
-      <p data-ar="عيادة متخصصة في طب وتجميل الأسنان بمدينة نصر، نؤمن أن الابتسامة الجميلة تبدأ من تشخيص دقيق وخطة علاج واضحة. نستخدم أحدث الأجهزة والمواد المعتمدة عالمياً، مع تعقيم صارم ورعاية شخصية لكل مريض." data-en="A specialist dental and cosmetic clinic in Nasr City. We believe a beautiful smile starts with precise diagnosis and a clear treatment plan — using the latest equipment, globally approved materials, strict sterilization and personal care for every patient.">عيادة متخصصة في طب وتجميل الأسنان بمدينة نصر، نؤمن أن الابتسامة الجميلة تبدأ من تشخيص دقيق وخطة علاج واضحة. نستخدم أحدث الأجهزة والمواد المعتمدة عالمياً، مع تعقيم صارم ورعاية شخصية لكل مريض.</p>
+      <h2 data-ar="عن عيادة ألجو سمايل" data-en="About Algo Smile Clinic">عن عيادة ألجو سمايل</h2>
+      <p data-ar="ألجو سمايل عيادة متخصصة في طب وتجميل وزراعة الأسنان بمدينة نصر، بقيادة د. حازم طاحون — أخصائي تجميل وزراعة الأسنان بجامعة عين شمس، وصاحب خبرة تتجاوز 20 عاماً. نؤمن أن الابتسامة الجميلة تبدأ من تشخيص دقيق وخطة علاج واضحة، وشعارنا الدائم: ابتسامتك… شغفنا." data-en="Algo Smile is a specialist dental, cosmetic and implant clinic in Nasr City, led by Dr. Hazem Tahoun — cosmetic & implant specialist at Ain Shams University with over 20 years of experience. We believe a beautiful smile starts with precise diagnosis and a clear treatment plan. Our motto: Your Smile, Our Passion.">ألجو سمايل عيادة متخصصة في طب وتجميل وزراعة الأسنان بمدينة نصر، بقيادة د. حازم طاحون — أخصائي تجميل وزراعة الأسنان بجامعة عين شمس، وصاحب خبرة تتجاوز 20 عاماً. نؤمن أن الابتسامة الجميلة تبدأ من تشخيص دقيق وخطة علاج واضحة، وشعارنا الدائم: ابتسامتك… شغفنا.</p>
       <ul class="ticks">
         <li data-ar="أحدث أجهزة التشخيص والعلاج بالليزر" data-en="Latest diagnostic and laser treatment equipment">أحدث أجهزة التشخيص والعلاج بالليزر</li>
         <li data-ar="تعقيم كامل وفق المعايير الدولية" data-en="Full sterilization to international standards">تعقيم كامل وفق المعايير الدولية</li>
         <li data-ar="خطط علاج وأسعار واضحة قبل أن تبدأ" data-en="Clear treatment plans before you start">خطط علاج وأسعار واضحة قبل أن تبدأ</li>
         <li data-ar="متابعة بعد العلاج عبر واتساب" data-en="Post-treatment follow-up on WhatsApp">متابعة بعد العلاج عبر واتساب</li>
       </ul>
+      <div class="doc-card"><div class="doc-av" data-ar="ح" data-en="H">ح</div><div><b data-ar="د. حازم طاحون" data-en="Dr. Hazem Tahoun">د. حازم طاحون</b><span data-ar="أخصائي تجميل وزراعة الأسنان — جامعة عين شمس" data-en="Cosmetic & Implant Dentistry Specialist — Ain Shams University">أخصائي تجميل وزراعة الأسنان — جامعة عين شمس</span><div class="chips"><i data-ar="زراعة الأسنان" data-en="Implants">زراعة الأسنان</i><i data-ar="تجميل الابتسامة" data-en="Smile Design">تجميل الابتسامة</i><i data-ar="تقويم الأسنان" data-en="Orthodontics">تقويم الأسنان</i></div></div></div>
     </div>
   </div>
 </section>
@@ -207,17 +219,17 @@ footer li{list-style:none;font-size:14px;margin-bottom:8px}
       <div class="card reveal">
         <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 4.6L18 9l-4.2 1.4L12 15l-1.8-4.6L6 9l4.2-1.4z"/><path d="M18.5 15l.9 2.1L21.5 18l-2.1.9-.9 2.1-.9-2.1L15.5 18l2.1-.9z"/></svg></div>
         <h3 data-ar="تبييض الأسنان" data-en="Teeth Whitening">تبييض الأسنان</h3>
-        <p data-ar="تبييض احترافي بالليزر في جلسة واحدة، بدرجات أفتح ملحوظة وبأمان كامل على مينا الأسنان." data-en="Professional laser whitening in a single session, with noticeably brighter shades and complete enamel safety.">تبييض احترافي بالليزر في جلسة واحدة، بدرجات أفتح ملحوظة وبأمان كامل على مينا الأسنان.</p>
+        <p data-ar="تبييض احترافي بالليزر في جلسة واحدة، مع تبييض وتوريد اللثة بالليزر — نتيجة أفتح ملحوظة وأمان كامل على مينا الأسنان." data-en="Professional laser whitening in a single session, plus laser gum whitening — noticeably brighter results with complete enamel safety.">تبييض احترافي بالليزر في جلسة واحدة، مع تبييض وتوريد اللثة بالليزر — نتيجة أفتح ملحوظة وأمان كامل على مينا الأسنان.</p>
       </div>
       <div class="card reveal">
         <div class="ic"><svg viewBox="0 0 24 24"><path d="M5 10c0-3 2-5 7-5s7 2 7 5c0 5-2 10-3.5 10S13 15 12 15s-2.5 5-3.5 5S5 15 5 10z"/></svg></div>
         <h3 data-ar="التركيبات والقشرة التجميلية" data-en="Crowns & Veneers">التركيبات والقشرة التجميلية</h3>
-        <p data-ar="تيجان وقشرة إيماكس وزريكون بمظهر طبيعي تماماً، مصممة رقمياً لتناسب ملامح وجهك وابتسامتك." data-en="E-max and zircon crowns and veneers with a fully natural look, digitally designed to fit your face and smile.">تيجان وقشرة إيماكس وزريكون بمظهر طبيعي تماماً، مصممة رقمياً لتناسب ملامح وجهك وابتسامتك.</p>
+        <p data-ar="تيجان وفينير إيماكس وزريكون بمظهر طبيعي تماماً، مصممة رقمياً لتناسب ملامح وجهك — وتركيبات جاهزة خلال 24 ساعة فقط." data-en="E-max and zircon crowns and veneers with a fully natural look, digitally designed for your face — restorations ready in just 24 hours.">تيجان وفينير إيماكس وزريكون بمظهر طبيعي تماماً، مصممة رقمياً لتناسب ملامح وجهك — وتركيبات جاهزة خلال 24 ساعة فقط.</p>
       </div>
       <div class="card reveal">
         <div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg></div>
         <h3 data-ar="علاج الجذور والحشوات" data-en="Root Canal & Fillings">علاج الجذور والحشوات</h3>
-        <p data-ar="علاج عصب دقيق بأجهزة الروتاري والمجهر، وحشوات تجميلية بلون الأسنان — بدون ألم وبجلسات مريحة." data-en="Precise root canal therapy with rotary systems and microscope, and tooth-colored cosmetic fillings — pain-free and comfortable.">علاج عصب دقيق بأجهزة الروتاري والمجهر، وحشوات تجميلية بلون الأسنان — بدون ألم وبجلسات مريحة.</p>
+        <p data-ar="علاج جذور رقمي في جلسة واحدة بأحدث الأجهزة، وحشوات تجميلية بلون الأسنان — دقة عالية وبدون ألم." data-en="Single-visit digital root canal therapy with the latest equipment, and tooth-colored cosmetic fillings — precise and pain-free.">علاج جذور رقمي في جلسة واحدة بأحدث الأجهزة، وحشوات تجميلية بلون الأسنان — دقة عالية وبدون ألم.</p>
       </div>
       <div class="card reveal">
         <div class="ic"><svg viewBox="0 0 24 24"><path d="M20 4c-6 0-12 4-14 12l-2 4 4-2C16 16 20 10 20 4z"/><path d="M6 18C9 12 13 8 18 6"/></svg></div>
@@ -242,7 +254,7 @@ footer li{list-style:none;font-size:14px;margin-bottom:8px}
     <div class="sec-head reveal">
       <div class="k" data-ar="نتائج حقيقية" data-en="REAL RESULTS">نتائج حقيقية</div>
       <h2 data-ar="قبل وبعد — اسحب لترى الفرق" data-en="Before & after — drag to see the difference">قبل وبعد — اسحب لترى الفرق</h2>
-      <p data-ar="نتائج تبييض وتجميل الابتسامة لدى مرضانا." data-en="Whitening and smile-design results from our patients.">نتائج تبييض وتجميل الابتسامة لدى مرضانا.</p>
+      <p data-ar="أمثلة توضيحية لنتائج التبييض وتجميل الابتسامة — وشاهد مئات الحالات الحقيقية على إنستغرام العيادة." data-en="Illustrative examples of whitening and smile-design results — see hundreds of real cases on the clinic's Instagram.">أمثلة توضيحية لنتائج التبييض وتجميل الابتسامة — وشاهد مئات الحالات الحقيقية على إنستغرام العيادة.</p>
     </div>
     <div class="ba reveal">
       <div class="ba-box" id="baBox">
@@ -253,6 +265,7 @@ footer li{list-style:none;font-size:14px;margin-bottom:8px}
         <div class="ba-handle" id="baHandle"></div>
       </div>
       <p class="ba-note" data-ar="اسحب المؤشر يميناً ويساراً لمقارنة النتيجة قبل العلاج وبعده." data-en="Drag the handle left and right to compare before and after.">اسحب المؤشر يميناً ويساراً لمقارنة النتيجة قبل العلاج وبعده.</p>
+      <p class="ba-note"><a href="https://www.instagram.com/drhazemtahoun_algosmileclinic" target="_blank" style="color:var(--blue);font-weight:800" data-ar="📸 حالات حقيقية على إنستغرام العيادة" data-en="📸 Real cases on the clinic's Instagram">📸 حالات حقيقية على إنستغرام العيادة</a></p>
     </div>
   </div>
 </section>
@@ -298,10 +311,12 @@ footer li{list-style:none;font-size:14px;margin-bottom:8px}
       </form>
     </div>
     <div class="info-card reveal" id="contact">
-      <div class="row"><div class="ic">📍</div><div><b data-ar="العنوان" data-en="Address">العنوان</b><br><span data-ar="عمارات الإمداد والتموين، عمارة 8، الدور الثالث — مدينة نصر، القاهرة" data-en="El Emdad & El Tamween Buildings, Bldg 8, 3rd floor — Nasr City, Cairo">عمارات الإمداد والتموين، عمارة 8، الدور الثالث — مدينة نصر، القاهرة</span></div></div>
+      <div class="row"><div class="ic">📍</div><div><b data-ar="العنوان" data-en="Address">العنوان</b><br><span data-ar="26 شارع أحمد فخري، بجوار مستشفى حسبو — الدور الثاني، مدينة نصر، القاهرة" data-en="26 Ahmed Fakhry St, beside Hassabo Hospital — 2nd floor, Nasr City, Cairo">26 شارع أحمد فخري، بجوار مستشفى حسبو — الدور الثاني، مدينة نصر، القاهرة</span></div></div>
       <div class="row"><div class="ic">🕐</div><div><b data-ar="مواعيد العمل" data-en="Working hours">مواعيد العمل</b><br><span data-ar="السبت – الخميس: 12 ظهراً – 10 مساءً" data-en="Saturday – Thursday: 12 PM – 10 PM">السبت – الخميس: 12 ظهراً – 10 مساءً</span></div></div>
-      <div class="row"><div class="ic">📞</div><div><b data-ar="الهاتف / واتساب" data-en="Phone / WhatsApp">الهاتف / واتساب</b><br><span>0100 800 0172</span></div></div>
-      <a class="btn ghost" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Smile+Design+Dental+Clinic+El+Emdad+Buildings+Nasr+City+Cairo" data-ar="الاتجاهات عبر خرائط جوجل" data-en="Get directions on Google Maps">الاتجاهات عبر خرائط جوجل</a>
+      <div class="row"><div class="ic">📞</div><div><b data-ar="الهاتف / واتساب" data-en="Phone / WhatsApp">الهاتف / واتساب</b><br><span>0100 800 0172 — 0111 511 1078</span></div></div>
+      <div class="row"><div class="ic">✉️</div><div><b data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</b><br><span>drhazemdental@gmail.com</span></div></div>
+      <div class="row"><div class="ic">🌐</div><div><b data-ar="تابعنا" data-en="Follow us">تابعنا</b><div class="socials"><a target="_blank" href="https://facebook.com/AlgoSmileDr.HazemTahoun">Facebook</a><a target="_blank" href="https://www.instagram.com/drhazemtahoun_algosmileclinic">Instagram</a><a target="_blank" href="https://www.tiktok.com/@drhazemtahoun">TikTok</a><a target="_blank" href="https://www.snapchat.com/add/hazemtahoun82">Snapchat</a></div></div></div>
+      <a class="btn ghost" target="_blank" href="https://www.google.com/maps/search/?api=1&query=30.06605,31.34954" data-ar="الاتجاهات عبر خرائط جوجل" data-en="Get directions on Google Maps">الاتجاهات عبر خرائط جوجل</a>
     </div>
   </div>
 </section>
@@ -310,8 +325,8 @@ footer li{list-style:none;font-size:14px;margin-bottom:8px}
   <div class="wrap">
     <div class="grid">
       <div>
-        <a class="logo" href="#"><span class="tooth"><svg viewBox="0 0 24 24"><path d="M12 3C9.5 3 8.6 4.6 6.4 4.3 4 4 2.6 5.9 2.9 8.6c.2 2.2 1.2 3.8 1.8 6 .5 1.8.8 6.4 2.7 6.4 1.7 0 1.4-3.4 3.1-3.4s1.4 3.4 3.1 3.4c1.9 0 2.2-4.6 2.7-6.4.6-2.2 1.6-3.8 1.8-6C21.4 5.9 20 4 17.6 4.3 15.4 4.6 14.5 3 12 3z"/></svg></span><span>Smile Design</span></a>
-        <p data-ar="عيادة طب وتجميل الأسنان في مدينة نصر، القاهرة. ابتسامتك تبدأ من هنا." data-en="Dental & cosmetic clinic in Nasr City, Cairo. Your smile starts here.">عيادة طب وتجميل الأسنان في مدينة نصر، القاهرة. ابتسامتك تبدأ من هنا.</p>
+        <a class="logo" href="#"><span class="tooth"><svg viewBox="0 0 24 24"><path d="M12 3C9.5 3 8.6 4.6 6.4 4.3 4 4 2.6 5.9 2.9 8.6c.2 2.2 1.2 3.8 1.8 6 .5 1.8.8 6.4 2.7 6.4 1.7 0 1.4-3.4 3.1-3.4s1.4 3.4 3.1 3.4c1.9 0 2.2-4.6 2.7-6.4.6-2.2 1.6-3.8 1.8-6C21.4 5.9 20 4 17.6 4.3 15.4 4.6 14.5 3 12 3z"/></svg></span><span>Algo Smile</span></a>
+        <p data-ar="عيادة ألجو سمايل لطب وتجميل وزراعة الأسنان بمدينة نصر، القاهرة — د. حازم طاحون. ابتسامتك تبدأ من Algo Smile." data-en="Algo Smile dental, cosmetic & implant clinic in Nasr City, Cairo — Dr. Hazem Tahoun. Your smile starts at Algo Smile.">عيادة ألجو سمايل لطب وتجميل وزراعة الأسنان بمدينة نصر، القاهرة — د. حازم طاحون. ابتسامتك تبدأ من Algo Smile.</p>
       </div>
       <div class="cols">
         <div><h4 data-ar="روابط سريعة" data-en="Quick links">روابط سريعة</h4><ul>
@@ -321,11 +336,12 @@ footer li{list-style:none;font-size:14px;margin-bottom:8px}
         </ul></div>
         <div><h4 data-ar="تواصل" data-en="Contact">تواصل</h4><ul>
           <li>0100 800 0172</li>
-          <li data-ar="مدينة نصر، القاهرة" data-en="Nasr City, Cairo">مدينة نصر، القاهرة</li>
+          <li>drhazemdental@gmail.com</li>
+          <li data-ar="26 شارع أحمد فخري — مدينة نصر، القاهرة" data-en="26 Ahmed Fakhry St — Nasr City, Cairo">26 شارع أحمد فخري — مدينة نصر، القاهرة</li>
         </ul></div>
       </div>
     </div>
-    <div class="copy">© 2026 Smile Design Dental Clinic</div>
+    <div class="copy">© 2026 Algo Smile — Dr. Hazem Tahoun</div>
   </div>
 </footer>
 
@@ -334,7 +350,7 @@ footer li{list-style:none;font-size:14px;margin-bottom:8px}
 <button class="chatbtn" id="chatBtn" aria-label="Chat"><svg viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.9 2 11.8c0 1.6.5 3.1 1.5 4.4L2 22l5.9-1.5c1.2.6 2.6 1 4.1 1 5.5 0 10-3.9 10-8.7S17.5 3 12 3z"/><circle cx="8" cy="11.8" r="1.3" fill="#0b6bc7"/><circle cx="12" cy="11.8" r="1.3" fill="#0b6bc7"/><circle cx="16" cy="11.8" r="1.3" fill="#0b6bc7"/></svg></button>
 
 <div class="chatwin" id="chatWin">
-  <div class="chat-head"><div class="av">🦷</div><div><b data-ar="مساعد Smile Design" data-en="Smile Design Assistant">مساعد Smile Design</b><span data-ar="يرد فوراً — على مدار الساعة" data-en="Replies instantly — 24/7">يرد فوراً — على مدار الساعة</span></div></div>
+  <div class="chat-head"><div class="av">🦷</div><div><b data-ar="مساعد Algo Smile" data-en="Algo Smile Assistant">مساعد Algo Smile</b><span data-ar="يرد فوراً — على مدار الساعة" data-en="Replies instantly — 24/7">يرد فوراً — على مدار الساعة</span></div></div>
   <div class="chat-body" id="chatBody"></div>
   <div class="quick" id="quickRow"></div>
   <div class="chat-in">
@@ -394,14 +410,14 @@ $('#bookForm').addEventListener('submit', e => {
 
 /* ---------- chatbot ---------- */
 const WA_LINK = 'https://wa.me/201008000172';
-const MAPS_LINK = 'https://www.google.com/maps/search/?api=1&query=Smile+Design+Dental+Clinic+El+Emdad+Buildings+Nasr+City+Cairo';
+const MAPS_LINK = 'https://www.google.com/maps/search/?api=1&query=30.06605,31.34954';
 const FAQ = [
   {k: ['مواعيد','ساعات','تفتح','يفتح','دوام','hours','open','when'], a: {
     ar: 'مواعيد العمل: السبت إلى الخميس، من 12 ظهراً حتى 10 مساءً. هل تريد حجز موعد؟',
     en: 'Working hours: Saturday to Thursday, 12 PM – 10 PM. Would you like to book an appointment?'}, cards: ['book','wa']},
   {k: ['عنوان','مكان','فين','أين','location','address','where','directions'], a: {
-    ar: 'العنوان: عمارات الإمداد والتموين، عمارة 8، الدور الثالث — مدينة نصر، القاهرة. يمكنك فتح الاتجاهات من الزر بالأسفل.',
-    en: 'Address: El Emdad & El Tamween Buildings, Bldg 8, 3rd floor — Nasr City, Cairo. Tap Directions below.'}, cards: ['maps','wa']},
+    ar: 'العنوان: 26 شارع أحمد فخري، بجوار مستشفى حسبو، الدور الثاني — مدينة نصر، القاهرة (قريب من سيتي ستارز). يمكنك فتح الاتجاهات من الزر بالأسفل.',
+    en: 'Address: 26 Ahmed Fakhry St, beside Hassabo Hospital, 2nd floor — Nasr City, Cairo (near City Stars). Tap Directions below.'}, cards: ['maps','wa']},
   {k: ['حجز','موعد','احجز','book','appointment','reserve'], a: {
     ar: 'بكل سرور! يمكنك الحجز عبر نموذج الحجز في الموقع أو مباشرة على واتساب — اختر ما يناسبك من الأزرار بالأسفل.',
     en: 'With pleasure! You can book through the booking form on this page or directly on WhatsApp — use the buttons below.'}, cards: ['book','wa']},
@@ -415,8 +431,11 @@ const FAQ = [
     ar: 'نوفر التقويم المعدني والشفاف للأطفال والبالغين، مع خطة متابعة منتظمة حتى الوصول للنتيجة المطلوبة. احجز كشفاً لتقييم حالتك.',
     en: 'We provide metal and clear orthodontics for children and adults, with regular follow-up until the planned result. Book an assessment visit.'}, cards: ['book','wa']},
   {k: ['خدمات','تقدمون','عندكم','تخصص','services','offer','treatments'], a: {
-    ar: 'خدماتنا: زراعة الأسنان، التقويم، التبييض بالليزر، التركيبات والقشرة التجميلية، علاج الجذور والحشوات، والتنظيف والتلميع والوقاية. عن أي خدمة تريد التفاصيل؟',
-    en: 'Our services: implants, orthodontics, laser whitening, crowns & veneers, root canal & fillings, and cleaning & prevention. Which service would you like details on?'}, cards: ['book','wa']},
+    ar: 'خدماتنا: زراعة الأسنان، التقويم، التبييض بالليزر وتبييض اللثة، التركيبات والفينير (جاهزة خلال 24 ساعة)، علاج الجذور الرقمي في جلسة واحدة، والتنظيف والتلميع والوقاية. عن أي خدمة تريد التفاصيل؟',
+    en: 'Our services: implants, orthodontics, laser teeth & gum whitening, crowns & veneers (ready in 24 hours), single-visit digital root canal, and cleaning & prevention. Which service would you like details on?'}, cards: ['book','wa']},
+  {k: ['دكتور','طبيب','حازم','doctor','hazem','who'], a: {
+    ar: 'الطبيب المعالج هو د. حازم طاحون — أخصائي تجميل وزراعة الأسنان (جامعة عين شمس)، بخبرة تتجاوز 20 عاماً في الزراعة والفينير والتقويم.',
+    en: 'Your doctor is Dr. Hazem Tahoun — cosmetic & implant specialist (Ain Shams University), with 20+ years of experience in implants, veneers and orthodontics.'}, cards: ['book','wa']},
   {k: ['سعر','أسعار','بكام','تكلفة','ثمن','price','cost','how much'], a: {
     ar: 'الأسعار تختلف حسب الحالة وخطة العلاج، لذلك لا نعلن أسعاراً ثابتة حتى لا نضلّلك. الأنسب أن تحجز كشفاً — وبعده تحصل على خطة وسعر دقيق ومكتوب. تواصل معنا على واتساب وسنساعدك فوراً.',
     en: 'Prices depend on your case and treatment plan, so we don\u2019t publish fixed prices to avoid misleading you. Best step: book an examination — afterwards you get an exact written plan and price. Message us on WhatsApp and we\u2019ll help right away.'}, cards: ['wa','book']},
@@ -427,8 +446,8 @@ const FAQ = [
     ar: 'نستقبل الأطفال ونحرص على تجربة لطيفة بلا خوف، مع خدمات وقاية وعلاج مناسبة لأعمارهم. احجزوا زيارة تعريفية لطفلكم عبر واتساب.',
     en: 'We welcome children and make sure their experience is gentle and fear-free, with age-appropriate prevention and treatment. Book an introductory visit via WhatsApp.'}, cards: ['book','wa']},
   {k: ['سلام','مرحبا','هلا','اهلا','أهلا','hello','hi','hey'], a: {
-    ar: 'أهلاً بك في Smile Design! كيف أستطيع مساعدتك اليوم؟ يمكنك سؤالي عن المواعيد، الخدمات، العنوان أو الحجز.',
-    en: 'Welcome to Smile Design! How can I help you today? Ask me about hours, services, location or booking.'}, cards: ['book']},
+    ar: 'أهلاً بك في Algo Smile — عيادة د. حازم طاحون! كيف أستطيع مساعدتك اليوم؟ يمكنك سؤالي عن المواعيد، الخدمات، العنوان أو الحجز.',
+    en: 'Welcome to Algo Smile — Dr. Hazem Tahoun\u2019s clinic! How can I help you today? Ask me about hours, services, location or booking.'}, cards: ['book']},
   {k: ['شكرا','ممتاز','تمام','thanks','thank','great'], a: {
     ar: 'العفو! سعيد بمساعدتك. إذا احتجت أي شيء آخر — حجز أو سؤال عن خدمة — أنا هنا، أو تواصل مع العيادة مباشرة على واتساب.',
     en: 'You\u2019re welcome! Happy to help. If you need anything else — a booking or a question about a service — I\u2019m here, or reach the clinic directly on WhatsApp.'}, cards: ['wa']},
@@ -465,7 +484,7 @@ function buildQuick(){
 let greeted = false;
 $('#chatBtn').addEventListener('click', () => {
   $('#chatWin').classList.toggle('open');
-  if (!greeted){ greeted = true; addMsg(LANG === 'ar' ? 'أهلاً بك في Smile Design! أنا مساعد العيادة الذكي — أجيب فوراً عن المواعيد والخدمات والعنوان والحجز. كيف أخدمك؟' : 'Welcome to Smile Design! I\u2019m the clinic\u2019s smart assistant — I answer instantly about hours, services, location and booking. How can I help?', 'bot', ['book']); }
+  if (!greeted){ greeted = true; addMsg(LANG === 'ar' ? 'أهلاً بك في Algo Smile — عيادة د. حازم طاحون! أنا مساعد العيادة الذكي — أجيب فوراً عن المواعيد والخدمات والعنوان والحجز. كيف أخدمك؟' : 'Welcome to Algo Smile — Dr. Hazem Tahoun\u2019s clinic! I\u2019m the clinic\u2019s smart assistant — I answer instantly about hours, services, location and booking. How can I help?', 'bot', ['book']); }
 });
 function sendChat(text){
   const v = (text !== undefined ? text : $('#chatInput').value).trim();
