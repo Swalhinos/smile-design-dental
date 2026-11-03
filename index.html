@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smile Design Dental Clinic — عيادة سمايل ديزاين لطب الأسنان | مدينة نصر، القاهرة</title>
+<meta name="description" content="عيادة سمايل ديزاين لطب وتجميل الأسنان في مدينة نصر، القاهرة — زراعة أسنان، تقويم، تبييض، وتركيبات. احجز عبر واتساب.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦷</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#0b6bc7;--deep:#083b6e;--azure:#e8f3fd;--soft:#f5f9fe;--ink:#12293f;--mut:#5a7085;--gold:#c9a227;--wa:#25d366}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Cairo','Inter',system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.7;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--blue);color:#fff;font-weight:800;padding:13px 26px;border-radius:999px;transition:.25s;box-shadow:0 8px 20px rgba(11,107,199,.25);border:none;cursor:pointer;font-size:16px;font-family:inherit}
+.btn:hover{background:var(--deep);transform:translateY(-2px)}
+.btn.wa{background:var(--wa);color:#06310f;box-shadow:0 8px 20px rgba(37,211,102,.3)}
+.btn.ghost{background:#fff;color:var(--blue);border:2px solid var(--blue);box-shadow:none}
+header{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid #e3edf7}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:900;font-size:20px;color:var(--deep)}
+.logo .tooth{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--blue),#39a0f5);display:flex;align-items:center;justify-content:center;flex:none}
+.logo .tooth svg{width:24px;height:24px;fill:#fff}
+.nav nav{display:flex;gap:22px;font-weight:700;color:var(--mut);font-size:15px}
+.nav nav a:hover{color:var(--blue)}
+.nav .acts{display:flex;gap:8px;align-items:center}
+.langbtn{background:var(--azure);border:none;border-radius:999px;padding:8px 14px;font-weight:800;cursor:pointer;color:var(--deep);font-family:inherit}
+.callbtn{background:var(--blue);color:#fff;border-radius:999px;padding:8px 16px;font-weight:800;font-size:14px}
+.hero{background:linear-gradient(180deg,var(--azure),#fff);padding:56px 0 70px;position:relative;overflow:hidden}
+.hero .grid{display:grid;grid-template-columns:1.05fr 1fr;gap:44px;align-items:center}
+.badge{display:inline-block;background:#fff;border:1px solid #cfe4f7;color:var(--blue);font-weight:800;font-size:13px;padding:5px 14px;border-radius:999px;margin-bottom:16px}
+.hero h1{font-size:clamp(30px,4.6vw,52px);font-weight:900;line-height:1.25;color:var(--deep)}
+.hero h1 span{color:var(--blue)}
+.hero p{color:var(--mut);font-size:18px;margin:16px 0 26px;max-width:520px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+.heroimg{border-radius:26px;overflow:hidden;box-shadow:0 30px 60px rgba(8,59,110,.22);position:relative}
+.heroimg img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3.4}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
+.stat{background:#fff;border:1px solid #e3edf7;border-radius:16px;padding:14px;text-align:center;box-shadow:0 6px 18px rgba(8,59,110,.06)}
+.stat b{display:block;font-size:26px;color:var(--blue);font-weight:900}
+.stat span{color:var(--mut);font-size:13px;font-weight:700}
+section{padding:74px 0}
+.sec-head{text-align:center;max-width:640px;margin:0 auto 44px}
+.sec-head .k{color:var(--blue);font-weight:800;font-size:14px;letter-spacing:.4px}
+.sec-head h2{font-size:clamp(26px,3.4vw,38px);font-weight:900;color:var(--deep);margin:6px 0 10px}
+.sec-head p{color:var(--mut)}
+.about .grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.about img{border-radius:26px;box-shadow:0 24px 50px rgba(8,59,110,.18);aspect-ratio:4/3.2;object-fit:cover;width:100%}
+.about h2{font-size:30px;font-weight:900;color:var(--deep);margin-bottom:12px}
+.about p{color:var(--mut);margin-bottom:14px}
+.ticks{display:grid;gap:10px;margin-top:8px}
+.ticks li{list-style:none;display:flex;gap:10px;align-items:flex-start;font-weight:700}
+.ticks li::before{content:"✓";background:var(--azure);color:var(--blue);width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;flex:none;margin-top:3px}
+.services{background:var(--soft)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;border:1px solid #e3edf7;border-radius:20px;padding:28px 24px;transition:.25s}
+.card:hover{transform:translateY(-5px);box-shadow:0 18px 36px rgba(8,59,110,.12)}
+.card .ic{width:58px;height:58px;border-radius:16px;background:var(--azure);display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.card .ic svg{width:30px;height:30px;stroke:var(--blue);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:19px;font-weight:800;color:var(--deep);margin-bottom:8px}
+.card p{color:var(--mut);font-size:15px}
+.spot{background:linear-gradient(135deg,var(--deep),var(--blue));color:#fff;border-radius:28px;padding:44px;display:grid;grid-template-columns:auto 1fr auto;gap:28px;align-items:center}
+.spot .ic{width:84px;height:84px;border-radius:22px;background:rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center}
+.spot .ic svg{width:46px;height:46px;stroke:#fff;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.spot h3{font-size:26px;font-weight:900;margin-bottom:8px}
+.spot p{color:#d6e9fb;max-width:560px}
+.spot .btn{background:#fff;color:var(--deep);box-shadow:none}
+.ba{max-width:760px;margin:0 auto}
+.ba-box{position:relative;border-radius:24px;overflow:hidden;box-shadow:0 24px 50px rgba(8,59,110,.2);aspect-ratio:16/10;user-select:none;touch-action:none}
+.ba-box img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ba-after{clip-path:inset(0 0 0 50%)}
+[dir="ltr"] .ba-after{clip-path:inset(0 50% 0 0)}
+.ba-handle{position:absolute;top:0;bottom:0;left:50%;width:4px;background:#fff;transform:translateX(-50%);cursor:ew-resize;z-index:5}
+.ba-handle::after{content:"⇔";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;color:var(--deep);width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:19px;box-shadow:0 6px 18px rgba(0,0,0,.3)}
+.ba-tag{position:absolute;top:14px;background:rgba(8,59,110,.75);color:#fff;font-size:13px;font-weight:800;padding:4px 12px;border-radius:999px;z-index:4}
+.ba-tag.before{inset-inline-start:14px}.ba-tag.after{inset-inline-end:14px}
+.ba-note{text-align:center;color:var(--mut);font-size:14px;margin-top:14px}
+.testis{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.testi{background:var(--soft);border:1px solid #e3edf7;border-radius:20px;padding:26px}
+.testi .stars{color:var(--gold);font-size:17px;letter-spacing:2px}
+.testi p{margin:10px 0 14px;color:var(--ink)}
+.testi b{color:var(--deep)}
+.book{background:var(--soft)}
+.book .grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
+form{display:grid;gap:12px}
+form input,form select,form textarea{width:100%;padding:13px 16px;border:1.5px solid #d7e5f2;border-radius:12px;font-family:inherit;font-size:15px;background:#fff;color:var(--ink)}
+form input:focus,form select:focus,form textarea:focus{outline:none;border-color:var(--blue)}
+.info-card{background:#fff;border:1px solid #e3edf7;border-radius:20px;padding:28px;display:grid;gap:16px}
+.info-card .row{display:flex;gap:12px;align-items:flex-start}
+.info-card .row .ic{width:42px;height:42px;border-radius:12px;background:var(--azure);display:flex;align-items:center;justify-content:center;flex:none;font-size:19px}
+.info-card b{color:var(--deep)}
+.info-card span{color:var(--mut);font-size:15px}
+footer{background:var(--deep);color:#d6e9fb;padding:44px 0 30px}
+footer .grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
+footer .logo{color:#fff}
+footer p{font-size:14px;max-width:340px;margin-top:10px}
+footer .cols{display:flex;gap:56px;flex-wrap:wrap}
+footer h4{color:#fff;margin-bottom:12px;font-size:16px}
+footer li{list-style:none;font-size:14px;margin-bottom:8px}
+.copy{border-top:1px solid rgba(255,255,255,.15);margin-top:30px;padding-top:18px;font-size:13px;text-align:center;color:#9dbfdd}
+.wafloat{position:fixed;bottom:22px;inset-inline-start:22px;z-index:80;width:58px;height:58px;border-radius:50%;background:var(--wa);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 26px rgba(37,211,102,.45);transition:.25s}
+.wafloat:hover{transform:scale(1.08)}
+.wafloat svg{width:30px;height:30px;fill:#fff}
+.chatbtn{position:fixed;bottom:22px;inset-inline-end:22px;z-index:80;width:58px;height:58px;border-radius:50%;background:linear-gradient(135deg,var(--blue),#39a0f5);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 26px rgba(11,107,199,.45);transition:.25s}
+.chatbtn:hover{transform:scale(1.08)}
+.chatbtn svg{width:29px;height:29px;fill:#fff}
+.chatwin{position:fixed;bottom:92px;inset-inline-end:22px;z-index:81;width:min(370px,calc(100vw - 32px));background:#fff;border-radius:20px;box-shadow:0 24px 60px rgba(8,59,110,.3);overflow:hidden;display:none;flex-direction:column;border:1px solid #e3edf7}
+.chatwin.open{display:flex}
+.chat-head{background:linear-gradient(135deg,var(--deep),var(--blue));color:#fff;padding:16px 18px;display:flex;align-items:center;gap:12px}
+.chat-head .av{width:42px;height:42px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:22px}
+.chat-head b{display:block;font-size:16px}
+.chat-head span{font-size:12px;color:#bcd9f7}
+.chat-body{padding:16px;display:flex;flex-direction:column;gap:10px;max-height:340px;overflow-y:auto;background:#f7fafd}
+.msg{max-width:85%;padding:10px 14px;border-radius:16px;font-size:14.5px;line-height:1.6;white-space:pre-wrap}
+.msg.bot{background:#fff;border:1px solid #e3edf7;border-start-start-radius:4px;align-self:flex-start}
+.msg.me{background:var(--blue);color:#fff;border-start-end-radius:4px;align-self:flex-end}
+.quick{display:flex;flex-wrap:wrap;gap:6px;padding:0 16px 10px;background:#f7fafd}
+.quick button{background:#fff;border:1.5px solid #cfe4f7;color:var(--deep);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit}
+.quick button:hover{border-color:var(--blue)}
+.cards-act{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.cards-act a{background:var(--azure);color:var(--deep);font-weight:800;font-size:13px;padding:6px 12px;border-radius:999px}
+.chat-in{display:flex;border-top:1px solid #e3edf7}
+.chat-in input{flex:1;border:none;padding:14px 16px;font-family:inherit;font-size:14.5px}
+.chat-in input:focus{outline:none}
+.chat-in button{background:var(--blue);color:#fff;border:none;padding:0 20px;font-weight:800;cursor:pointer;font-family:inherit}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media(max-width:900px){.nav nav{display:none}.hero .grid,.about .grid,.book .grid{grid-template-columns:1fr}.cards,.testis{grid-template-columns:1fr}.spot{grid-template-columns:1fr;text-align:center;justify-items:center}.stats{grid-template-columns:repeat(3,1fr)}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#"><span class="tooth"><svg viewBox="0 0 24 24"><path d="M12 3C9.5 3 8.6 4.6 6.4 4.3 4 4 2.6 5.9 2.9 8.6c.2 2.2 1.2 3.8 1.8 6 .5 1.8.8 6.4 2.7 6.4 1.7 0 1.4-3.4 3.1-3.4s1.4 3.4 3.1 3.4c1.9 0 2.2-4.6 2.7-6.4.6-2.2 1.6-3.8 1.8-6C21.4 5.9 20 4 17.6 4.3 15.4 4.6 14.5 3 12 3z"/></svg></span><span>Smile Design</span></a>
+    <nav>
+      <a href="#about" data-ar="عن العيادة" data-en="About">عن العيادة</a>
+      <a href="#services" data-ar="خدماتنا" data-en="Services">خدماتنا</a>
+      <a href="#results" data-ar="النتائج" data-en="Results">النتائج</a>
+      <a href="#book" data-ar="احجز" data-en="Book">احجز</a>
+      <a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
+    </nav>
+    <div class="acts">
+      <button class="langbtn" id="langBtn">EN</button>
+      <a class="callbtn" href="tel:+201008000172">0100 800 0172</a>
+    </div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap grid">
+    <div>
+      <span class="badge" data-ar="عيادة طب وتجميل الأسنان — مدينة نصر، القاهرة" data-en="Dental & Cosmetic Clinic — Nasr City, Cairo">عيادة طب وتجميل الأسنان — مدينة نصر، القاهرة</span>
+      <h1 data-ar="ابتسامتك تستحق <span>تصميماً يليق بها</span>" data-en="Your smile deserves <span>a design worthy of it</span>">ابتسامتك تستحق <span>تصميماً يليق بها</span></h1>
+      <p data-ar="في Smile Design نجمع بين أحدث تقنيات طب الأسنان وخبرة طبية موثوقة: زراعة، تقويم، تبييض وتركيبات — في قلب مدينة نصر، وبخطوات حجز سهلة عبر واتساب." data-en="At Smile Design we combine the latest dental technology with trusted expertise: implants, orthodontics, whitening and prosthetics — in the heart of Nasr City, with easy WhatsApp booking.">في Smile Design نجمع بين أحدث تقنيات طب الأسنان وخبرة طبية موثوقة: زراعة، تقويم، تبييض وتركيبات — في قلب مدينة نصر، وبخطوات حجز سهلة عبر واتساب.</p>
+      <div class="cta">
+        <a class="btn wa" href="#book" data-ar="احجز عبر واتساب" data-en="Book on WhatsApp">احجز عبر واتساب</a>
+        <a class="btn ghost" href="#services" data-ar="اكتشف خدماتنا" data-en="Explore services">اكتشف خدماتنا</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>10+</b><span data-ar="سنوات خبرة" data-en="Years of experience">سنوات خبرة</span></div>
+        <div class="stat"><b>5000+</b><span data-ar="مريض سعيد" data-en="Happy patients">مريض سعيد</span></div>
+        <div class="stat"><b>98%</b><span data-ar="نسبة رضا المرضى" data-en="Patient satisfaction">نسبة رضا المرضى</span></div>
+      </div>
+    </div>
+    <div class="heroimg"><img src="hero.webp" alt="Smile Design Dental Clinic"></div>
+  </div>
+</div>
+
+<section class="about" id="about">
+  <div class="wrap grid">
+    <img src="patient.webp" alt="Happy patient at Smile Design">
+    <div>
+      <h2 data-ar="عن عيادة Smile Design" data-en="About Smile Design Clinic">عن عيادة Smile Design</h2>
+      <p data-ar="عيادة متخصصة في طب وتجميل الأسنان بمدينة نصر، نؤمن أن الابتسامة الجميلة تبدأ من تشخيص دقيق وخطة علاج واضحة. نستخدم أحدث الأجهزة والمواد المعتمدة عالمياً، مع تعقيم صارم ورعاية شخصية لكل مريض." data-en="A specialist dental and cosmetic clinic in Nasr City. We believe a beautiful smile starts with precise diagnosis and a clear treatment plan — using the latest equipment, globally approved materials, strict sterilization and personal care for every patient.">عيادة متخصصة في طب وتجميل الأسنان بمدينة نصر، نؤمن أن الابتسامة الجميلة تبدأ من تشخيص دقيق وخطة علاج واضحة. نستخدم أحدث الأجهزة والمواد المعتمدة عالمياً، مع تعقيم صارم ورعاية شخصية لكل مريض.</p>
+      <ul class="ticks">
+        <li data-ar="أحدث أجهزة التشخيص والعلاج بالليزر" data-en="Latest diagnostic and laser treatment equipment">أحدث أجهزة التشخيص والعلاج بالليزر</li>
+        <li data-ar="تعقيم كامل وفق المعايير الدولية" data-en="Full sterilization to international standards">تعقيم كامل وفق المعايير الدولية</li>
+        <li data-ar="خطط علاج وأسعار واضحة قبل أن تبدأ" data-en="Clear treatment plans before you start">خطط علاج وأسعار واضحة قبل أن تبدأ</li>
+        <li data-ar="متابعة بعد العلاج عبر واتساب" data-en="Post-treatment follow-up on WhatsApp">متابعة بعد العلاج عبر واتساب</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="k" data-ar="خدماتنا" data-en="OUR SERVICES">خدماتنا</div>
+      <h2 data-ar="رعاية متكاملة لأسنانك" data-en="Complete care for your teeth">رعاية متكاملة لأسنانك</h2>
+      <p data-ar="من الفحص الدوري إلى ابتسامة هوليوود — كل ما تحتاجه أسنانك في مكان واحد." data-en="From routine check-ups to a Hollywood smile — everything your teeth need in one place.">من الفحص الدوري إلى ابتسامة هوليوود — كل ما تحتاجه أسنانك في مكان واحد.</p>
+    </div>
+    <div class="cards">
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v3M8 6h8M9 6c0 4-1 5-1 8l1 7h6l1-7c0-3-1-4-1-8"/><path d="M10 12h4"/></svg></div>
+        <h3 data-ar="زراعة الأسنان" data-en="Dental Implants">زراعة الأسنان</h3>
+        <p data-ar="تعويض دائم وطبيعي للأسنان المفقودة بأحدث أنظمة الزراعة العالمية، وبخطة علاج على مراحل واضحة." data-en="Permanent, natural replacement for missing teeth with the latest global implant systems and a clear staged plan.">تعويض دائم وطبيعي للأسنان المفقودة بأحدث أنظمة الزراعة العالمية، وبخطة علاج على مراحل واضحة.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 12h18"/><rect x="4" y="9" width="4" height="6" rx="1"/><rect x="10" y="9" width="4" height="6" rx="1"/><rect x="16" y="9" width="4" height="6" rx="1"/></svg></div>
+        <h3 data-ar="تقويم الأسنان" data-en="Orthodontics">تقويم الأسنان</h3>
+        <p data-ar="تقويم معدني وشفاف للأطفال والبالغين، لتصحيح الاصطفاف والإطباق بنتائج مدروسة ومتابعة منتظمة." data-en="Metal and clear orthodontics for children and adults, correcting alignment and bite with planned results and regular follow-ups.">تقويم معدني وشفاف للأطفال والبالغين، لتصحيح الاصطفاف والإطباق بنتائج مدروسة ومتابعة منتظمة.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 4.6L18 9l-4.2 1.4L12 15l-1.8-4.6L6 9l4.2-1.4z"/><path d="M18.5 15l.9 2.1L21.5 18l-2.1.9-.9 2.1-.9-2.1L15.5 18l2.1-.9z"/></svg></div>
+        <h3 data-ar="تبييض الأسنان" data-en="Teeth Whitening">تبييض الأسنان</h3>
+        <p data-ar="تبييض احترافي بالليزر في جلسة واحدة، بدرجات أفتح ملحوظة وبأمان كامل على مينا الأسنان." data-en="Professional laser whitening in a single session, with noticeably brighter shades and complete enamel safety.">تبييض احترافي بالليزر في جلسة واحدة، بدرجات أفتح ملحوظة وبأمان كامل على مينا الأسنان.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M5 10c0-3 2-5 7-5s7 2 7 5c0 5-2 10-3.5 10S13 15 12 15s-2.5 5-3.5 5S5 15 5 10z"/></svg></div>
+        <h3 data-ar="التركيبات والقشرة التجميلية" data-en="Crowns & Veneers">التركيبات والقشرة التجميلية</h3>
+        <p data-ar="تيجان وقشرة إيماكس وزريكون بمظهر طبيعي تماماً، مصممة رقمياً لتناسب ملامح وجهك وابتسامتك." data-en="E-max and zircon crowns and veneers with a fully natural look, digitally designed to fit your face and smile.">تيجان وقشرة إيماكس وزريكون بمظهر طبيعي تماماً، مصممة رقمياً لتناسب ملامح وجهك وابتسامتك.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg></div>
+        <h3 data-ar="علاج الجذور والحشوات" data-en="Root Canal & Fillings">علاج الجذور والحشوات</h3>
+        <p data-ar="علاج عصب دقيق بأجهزة الروتاري والمجهر، وحشوات تجميلية بلون الأسنان — بدون ألم وبجلسات مريحة." data-en="Precise root canal therapy with rotary systems and microscope, and tooth-colored cosmetic fillings — pain-free and comfortable.">علاج عصب دقيق بأجهزة الروتاري والمجهر، وحشوات تجميلية بلون الأسنان — بدون ألم وبجلسات مريحة.</p>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M20 4c-6 0-12 4-14 12l-2 4 4-2C16 16 20 10 20 4z"/><path d="M6 18C9 12 13 8 18 6"/></svg></div>
+        <h3 data-ar="تنظيف وتلميع ووقاية" data-en="Cleaning & Prevention">تنظيف وتلميع ووقاية</h3>
+        <p data-ar="إزالة الجير والتصبغات وتلميع احترافي، مع خطة وقاية وفحص دوري يحافظ على أسنانك ولثتك سليمة." data-en="Tartar and stain removal with professional polishing, plus a prevention plan and regular check-ups to keep teeth and gums healthy.">إزالة الجير والتصبغات وتلميع احترافي، مع خطة وقاية وفحص دوري يحافظ على أسنانك ولثتك سليمة.</p>
+      </div>
+    </div>
+    <div style="height:26px"></div>
+    <div class="spot reveal">
+      <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v3M8 6h8M9 6c0 4-1 5-1 8l1 7h6l1-7c0-3-1-4-1-8"/></svg></div>
+      <div>
+        <h3 data-ar="زراعة الأسنان — ابتسامة ثابتة مدى الحياة" data-en="Dental implants — a smile fixed for life">زراعة الأسنان — ابتسامة ثابتة مدى الحياة</h3>
+        <p data-ar="استعد وظيفة ومظهر أسنانك الطبيعية بزراعة مدروسة رقمياً، وتركيبات زريكون عالية الجودة، ومتابعة كاملة بعد العملية." data-en="Restore the function and look of your natural teeth with digitally planned implants, high-quality zircon restorations and complete aftercare.">استعد وظيفة ومظهر أسنانك الطبيعية بزراعة مدروسة رقمياً، وتركيبات زريكون عالية الجودة، ومتابعة كاملة بعد العملية.</p>
+      </div>
+      <a class="btn" href="#book" data-ar="استشرنا مجاناً" data-en="Free consultation">استشرنا مجاناً</a>
+    </div>
+  </div>
+</section>
+
+<section id="results">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="k" data-ar="نتائج حقيقية" data-en="REAL RESULTS">نتائج حقيقية</div>
+      <h2 data-ar="قبل وبعد — اسحب لترى الفرق" data-en="Before & after — drag to see the difference">قبل وبعد — اسحب لترى الفرق</h2>
+      <p data-ar="نتائج تبييض وتجميل الابتسامة لدى مرضانا." data-en="Whitening and smile-design results from our patients.">نتائج تبييض وتجميل الابتسامة لدى مرضانا.</p>
+    </div>
+    <div class="ba reveal">
+      <div class="ba-box" id="baBox">
+        <img src="before.webp" alt="Before treatment">
+        <img class="ba-after" id="baAfter" src="after.webp" alt="After treatment">
+        <span class="ba-tag before" data-ar="قبل" data-en="Before">قبل</span>
+        <span class="ba-tag after" data-ar="بعد" data-en="After">بعد</span>
+        <div class="ba-handle" id="baHandle"></div>
+      </div>
+      <p class="ba-note" data-ar="اسحب المؤشر يميناً ويساراً لمقارنة النتيجة قبل العلاج وبعده." data-en="Drag the handle left and right to compare before and after.">اسحب المؤشر يميناً ويساراً لمقارنة النتيجة قبل العلاج وبعده.</p>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--soft)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="k" data-ar="آراء مرضانا" data-en="TESTIMONIALS">آراء مرضانا</div>
+      <h2 data-ar="ماذا يقول مرضانا؟" data-en="What our patients say">ماذا يقول مرضانا؟</h2>
+    </div>
+    <div class="testis">
+      <div class="testi reveal"><div class="stars">★★★★★</div><p data-ar="«عملت زراعة لضرسين وكانت التجربة أسهل مما توقعت بكثير. شرح واضح من أول زيارة ومتابعة بعد العملية على واتساب.»" data-en="“I had two implants done and it was far easier than I expected. Clear explanation from the first visit and follow-up on WhatsApp.”">«عملت زراعة لضرسين وكانت التجربة أسهل مما توقعت بكثير. شرح واضح من أول زيارة ومتابعة بعد العملية على واتساب.»</p><b data-ar="أحمد م." data-en="Ahmed M.">أحمد م.</b></div>
+      <div class="testi reveal"><div class="stars">★★★★★</div><p data-ar="«نتيجة التبييض فاقت توقعاتي من أول جلسة، والمكان نظيف جداً والتعامل راقٍ. أنصح بهم كل من يبحث عن ابتسامة أجمل.»" data-en="“The whitening result exceeded my expectations from the first session. The place is spotless and the care is excellent.”">«نتيجة التبييض فاقت توقعاتي من أول جلسة، والمكان نظيف جداً والتعامل راقٍ. أنصح بهم كل من يبحث عن ابتسامة أجمل.»</p><b data-ar="سارة خ." data-en="Sara K.">سارة خ.</b></div>
+      <div class="testi reveal"><div class="stars">★★★★★</div><p data-ar="«ابني كان يخاف من طبيب الأسنان، لكن أسلوب الفريق معه غيّر كل شيء. صار يروح العيادة وهو مبسوط.»" data-en="“My son used to fear the dentist, but the team's way with him changed everything. Now he goes happily.”">«ابني كان يخاف من طبيب الأسنان، لكن أسلوب الفريق معه غيّر كل شيء. صار يروح العيادة وهو مبسوط.»</p><b data-ar="محمود ع." data-en="Mahmoud A.">محمود ع.</b></div>
+    </div>
+  </div>
+</section>
+
+<section class="book" id="book">
+  <div class="wrap grid">
+    <div class="reveal">
+      <div class="sec-head" style="text-align:start;margin:0 0 22px">
+        <div class="k" data-ar="احجز موعدك" data-en="BOOK NOW">احجز موعدك</div>
+        <h2 data-ar="احجز في أقل من دقيقة" data-en="Book in under a minute">احجز في أقل من دقيقة</h2>
+        <p data-ar="املأ البيانات وسيصلك تأكيد الحجز عبر واتساب مباشرة." data-en="Fill in your details and your booking goes straight to our WhatsApp.">املأ البيانات وسيصلك تأكيد الحجز عبر واتساب مباشرة.</p>
+      </div>
+      <form id="bookForm">
+        <input required id="fName" data-ar-ph="الاسم الكامل" data-en-ph="Full name" placeholder="الاسم الكامل">
+        <input required id="fPhone" data-ar-ph="رقم الهاتف" data-en-ph="Phone number" placeholder="رقم الهاتف" inputmode="tel">
+        <select id="fService">
+          <option data-ar="كشف وفحص شامل" data-en="Check-up & examination">كشف وفحص شامل</option>
+          <option data-ar="زراعة الأسنان" data-en="Dental implants">زراعة الأسنان</option>
+          <option data-ar="تقويم الأسنان" data-en="Orthodontics">تقويم الأسنان</option>
+          <option data-ar="تبييض الأسنان" data-en="Teeth whitening">تبييض الأسنان</option>
+          <option data-ar="تركيبات وقشرة تجميلية" data-en="Crowns & veneers">تركيبات وقشرة تجميلية</option>
+          <option data-ar="علاج جذور وحشوات" data-en="Root canal & fillings">علاج جذور وحشوات</option>
+          <option data-ar="تنظيف وتلميع" data-en="Cleaning & polishing">تنظيف وتلميع</option>
+          <option data-ar="ألم طارئ" data-en="Emergency pain">ألم طارئ</option>
+        </select>
+        <input id="fWhen" data-ar-ph="اليوم والوقت المفضل (اختياري)" data-en-ph="Preferred day & time (optional)" placeholder="اليوم والوقت المفضل (اختياري)">
+        <textarea id="fMsg" rows="3" data-ar-ph="رسالتك (اختياري)" data-en-ph="Your message (optional)" placeholder="رسالتك (اختياري)"></textarea>
+        <button class="btn wa" type="submit" data-ar="إرسال الحجز عبر واتساب" data-en="Send booking via WhatsApp">إرسال الحجز عبر واتساب</button>
+      </form>
+    </div>
+    <div class="info-card reveal" id="contact">
+      <div class="row"><div class="ic">📍</div><div><b data-ar="العنوان" data-en="Address">العنوان</b><br><span data-ar="عمارات الإمداد والتموين، عمارة 8، الدور الثالث — مدينة نصر، القاهرة" data-en="El Emdad & El Tamween Buildings, Bldg 8, 3rd floor — Nasr City, Cairo">عمارات الإمداد والتموين، عمارة 8، الدور الثالث — مدينة نصر، القاهرة</span></div></div>
+      <div class="row"><div class="ic">🕐</div><div><b data-ar="مواعيد العمل" data-en="Working hours">مواعيد العمل</b><br><span data-ar="السبت – الخميس: 12 ظهراً – 10 مساءً" data-en="Saturday – Thursday: 12 PM – 10 PM">السبت – الخميس: 12 ظهراً – 10 مساءً</span></div></div>
+      <div class="row"><div class="ic">📞</div><div><b data-ar="الهاتف / واتساب" data-en="Phone / WhatsApp">الهاتف / واتساب</b><br><span>0100 800 0172</span></div></div>
+      <a class="btn ghost" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Smile+Design+Dental+Clinic+El+Emdad+Buildings+Nasr+City+Cairo" data-ar="الاتجاهات عبر خرائط جوجل" data-en="Get directions on Google Maps">الاتجاهات عبر خرائط جوجل</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <a class="logo" href="#"><span class="tooth"><svg viewBox="0 0 24 24"><path d="M12 3C9.5 3 8.6 4.6 6.4 4.3 4 4 2.6 5.9 2.9 8.6c.2 2.2 1.2 3.8 1.8 6 .5 1.8.8 6.4 2.7 6.4 1.7 0 1.4-3.4 3.1-3.4s1.4 3.4 3.1 3.4c1.9 0 2.2-4.6 2.7-6.4.6-2.2 1.6-3.8 1.8-6C21.4 5.9 20 4 17.6 4.3 15.4 4.6 14.5 3 12 3z"/></svg></span><span>Smile Design</span></a>
+        <p data-ar="عيادة طب وتجميل الأسنان في مدينة نصر، القاهرة. ابتسامتك تبدأ من هنا." data-en="Dental & cosmetic clinic in Nasr City, Cairo. Your smile starts here.">عيادة طب وتجميل الأسنان في مدينة نصر، القاهرة. ابتسامتك تبدأ من هنا.</p>
+      </div>
+      <div class="cols">
+        <div><h4 data-ar="روابط سريعة" data-en="Quick links">روابط سريعة</h4><ul>
+          <li><a href="#about" data-ar="عن العيادة" data-en="About">عن العيادة</a></li>
+          <li><a href="#services" data-ar="خدماتنا" data-en="Services">خدماتنا</a></li>
+          <li><a href="#book" data-ar="احجز موعدك" data-en="Book now">احجز موعدك</a></li>
+        </ul></div>
+        <div><h4 data-ar="تواصل" data-en="Contact">تواصل</h4><ul>
+          <li>0100 800 0172</li>
+          <li data-ar="مدينة نصر، القاهرة" data-en="Nasr City, Cairo">مدينة نصر، القاهرة</li>
+        </ul></div>
+      </div>
+    </div>
+    <div class="copy">© 2026 Smile Design Dental Clinic</div>
+  </div>
+</footer>
+
+<a class="wafloat" target="_blank" href="https://wa.me/201008000172" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.4-.7-2.9-1.2-4.7-4.1-4.9-4.3-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5s.8 1.9.8 2c.1.1.1.3 0 .5-.3.6-.6.8-.4 1.1.7 1.2 1.6 2 2.8 2.6.3.2.5.1.7-.1l.9-1c.2-.3.4-.2.7-.1l2 .9c.3.2.5.3.6.4 0 .1 0 .7-.2 1.2z"/></svg></a>
+
+<button class="chatbtn" id="chatBtn" aria-label="Chat"><svg viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.9 2 11.8c0 1.6.5 3.1 1.5 4.4L2 22l5.9-1.5c1.2.6 2.6 1 4.1 1 5.5 0 10-3.9 10-8.7S17.5 3 12 3z"/><circle cx="8" cy="11.8" r="1.3" fill="#0b6bc7"/><circle cx="12" cy="11.8" r="1.3" fill="#0b6bc7"/><circle cx="16" cy="11.8" r="1.3" fill="#0b6bc7"/></svg></button>
+
+<div class="chatwin" id="chatWin">
+  <div class="chat-head"><div class="av">🦷</div><div><b data-ar="مساعد Smile Design" data-en="Smile Design Assistant">مساعد Smile Design</b><span data-ar="يرد فوراً — على مدار الساعة" data-en="Replies instantly — 24/7">يرد فوراً — على مدار الساعة</span></div></div>
+  <div class="chat-body" id="chatBody"></div>
+  <div class="quick" id="quickRow"></div>
+  <div class="chat-in">
+    <input id="chatInput" data-ar-ph="اكتب سؤالك هنا…" data-en-ph="Type your question…" placeholder="اكتب سؤالك هنا…">
+    <button id="chatSend" data-ar="إرسال" data-en="Send">إرسال</button>
+  </div>
+</div>
+
+<script>
+let LANG = 'ar';
+const $ = s => document.querySelector(s);
+const $$ = s => document.querySelectorAll(s);
+
+/* ---------- i18n ---------- */
+function setLang(l){
+  LANG = l;
+  document.documentElement.lang = l;
+  document.documentElement.dir = l === 'ar' ? 'rtl' : 'ltr';
+  $$('[data-ar]').forEach(el => { el.innerHTML = el.dataset[l]; });
+  $$('[data-ar-ph]').forEach(el => { el.placeholder = el.dataset[l + 'Ph']; });
+  $$('#fService option').forEach(o => { o.textContent = o.dataset[l]; });
+  $('#langBtn').textContent = l === 'ar' ? 'EN' : 'عربي';
+  buildQuick();
+}
+$('#langBtn').addEventListener('click', () => setLang(LANG === 'ar' ? 'en' : 'ar'));
+
+/* ---------- reveal on scroll ---------- */
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); }), {threshold: .12});
+$$('.reveal').forEach(el => io.observe(el));
+
+/* ---------- before / after slider ---------- */
+const box = $('#baBox'), after = $('#baAfter'), handle = $('#baHandle');
+function baMove(x){
+  const r = box.getBoundingClientRect();
+  let p = (x - r.left) / r.width; p = Math.max(.04, Math.min(.96, p));
+  const fromStart = document.documentElement.dir === 'rtl' ? 1 - p : p;
+  after.style.clipPath = document.documentElement.dir === 'rtl' ? `inset(0 0 0 ${fromStart * 100}%)` : `inset(0 ${(1 - fromStart) * 100}% 0 0)`;
+  if (document.documentElement.dir === 'ltr') after.style.clipPath = `inset(0 ${(1 - p) * 100}% 0 0)`;
+  else after.style.clipPath = `inset(0 0 0 ${(1 - p) * 100}%)`;
+  handle.style.left = (p * 100) + '%';
+}
+let baDrag = false;
+box.addEventListener('pointerdown', e => { baDrag = true; baMove(e.clientX); });
+window.addEventListener('pointermove', e => { if (baDrag) baMove(e.clientX); });
+window.addEventListener('pointerup', () => baDrag = false);
+
+/* ---------- booking form -> WhatsApp ---------- */
+$('#bookForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const name = $('#fName').value.trim(), phone = $('#fPhone').value.trim(),
+        svc = $('#fService').value, when = $('#fWhen').value.trim(), msg = $('#fMsg').value.trim();
+  const lines = LANG === 'ar'
+    ? [`طلب حجز جديد من الموقع:`, `الاسم: ${name}`, `الهاتف: ${phone}`, `الخدمة: ${svc}`, when ? `الموعد المفضل: ${when}` : '', msg ? `رسالة: ${msg}` : '']
+    : [`New booking from the website:`, `Name: ${name}`, `Phone: ${phone}`, `Service: ${svc}`, when ? `Preferred time: ${when}` : '', msg ? `Message: ${msg}` : ''];
+  window.open('https://wa.me/201008000172?text=' + encodeURIComponent(lines.filter(Boolean).join('\n')), '_blank');
+});
+
+/* ---------- chatbot ---------- */
+const WA_LINK = 'https://wa.me/201008000172';
+const MAPS_LINK = 'https://www.google.com/maps/search/?api=1&query=Smile+Design+Dental+Clinic+El+Emdad+Buildings+Nasr+City+Cairo';
+const FAQ = [
+  {k: ['مواعيد','ساعات','تفتح','يفتح','دوام','hours','open','when'], a: {
+    ar: 'مواعيد العمل: السبت إلى الخميس، من 12 ظهراً حتى 10 مساءً. هل تريد حجز موعد؟',
+    en: 'Working hours: Saturday to Thursday, 12 PM – 10 PM. Would you like to book an appointment?'}, cards: ['book','wa']},
+  {k: ['عنوان','مكان','فين','أين','location','address','where','directions'], a: {
+    ar: 'العنوان: عمارات الإمداد والتموين، عمارة 8، الدور الثالث — مدينة نصر، القاهرة. يمكنك فتح الاتجاهات من الزر بالأسفل.',
+    en: 'Address: El Emdad & El Tamween Buildings, Bldg 8, 3rd floor — Nasr City, Cairo. Tap Directions below.'}, cards: ['maps','wa']},
+  {k: ['حجز','موعد','احجز','book','appointment','reserve'], a: {
+    ar: 'بكل سرور! يمكنك الحجز عبر نموذج الحجز في الموقع أو مباشرة على واتساب — اختر ما يناسبك من الأزرار بالأسفل.',
+    en: 'With pleasure! You can book through the booking form on this page or directly on WhatsApp — use the buttons below.'}, cards: ['book','wa']},
+  {k: ['زراعة','زرع','غرس','implant'], a: {
+    ar: 'نقدم زراعة الأسنان بأحدث الأنظمة العالمية وبخطة علاج واضحة على مراحل، مع تركيبات زريكون ومتابعة بعد العملية. للحصول على خطة وتكلفة دقيقة لحالتك، احجز كشفاً أولاً عبر واتساب.',
+    en: 'We offer dental implants with the latest global systems, a clear staged plan, zircon restorations and full aftercare. For an exact plan and cost for your case, book an examination first via WhatsApp.'}, cards: ['book','wa']},
+  {k: ['تبييض','بياض','whitening','bleach'], a: {
+    ar: 'التبييض عندنا بالليزر وفي جلسة واحدة، بنتيجة أفتح ملحوظة وأمان كامل على المينا. هل تريد حجز جلسة؟',
+    en: 'Our whitening is laser-based, done in a single session with a noticeably brighter result and full enamel safety. Shall we book you a session?'}, cards: ['book','wa']},
+  {k: ['تقويم','براكيت','ortho','braces'], a: {
+    ar: 'نوفر التقويم المعدني والشفاف للأطفال والبالغين، مع خطة متابعة منتظمة حتى الوصول للنتيجة المطلوبة. احجز كشفاً لتقييم حالتك.',
+    en: 'We provide metal and clear orthodontics for children and adults, with regular follow-up until the planned result. Book an assessment visit.'}, cards: ['book','wa']},
+  {k: ['خدمات','تقدمون','عندكم','تخصص','services','offer','treatments'], a: {
+    ar: 'خدماتنا: زراعة الأسنان، التقويم، التبييض بالليزر، التركيبات والقشرة التجميلية، علاج الجذور والحشوات، والتنظيف والتلميع والوقاية. عن أي خدمة تريد التفاصيل؟',
+    en: 'Our services: implants, orthodontics, laser whitening, crowns & veneers, root canal & fillings, and cleaning & prevention. Which service would you like details on?'}, cards: ['book','wa']},
+  {k: ['سعر','أسعار','بكام','تكلفة','ثمن','price','cost','how much'], a: {
+    ar: 'الأسعار تختلف حسب الحالة وخطة العلاج، لذلك لا نعلن أسعاراً ثابتة حتى لا نضلّلك. الأنسب أن تحجز كشفاً — وبعده تحصل على خطة وسعر دقيق ومكتوب. تواصل معنا على واتساب وسنساعدك فوراً.',
+    en: 'Prices depend on your case and treatment plan, so we don\u2019t publish fixed prices to avoid misleading you. Best step: book an examination — afterwards you get an exact written plan and price. Message us on WhatsApp and we\u2019ll help right away.'}, cards: ['wa','book']},
+  {k: ['ألم','وجع','طارئ','عاجل','pain','emergency','hurt'], a: {
+    ar: 'نأسف لسماع ذلك. حالات الألم الطارئة لها أولوية عندنا — تواصل معنا الآن على واتساب أو اتصل بنا وسنرتب لك أقرب موعد ممكن.',
+    en: 'Sorry to hear that. Pain emergencies get priority with us — contact us now on WhatsApp or call us and we\u2019ll arrange the earliest possible slot.'}, cards: ['wa','call']},
+  {k: ['أطفال','طفل','ابني','kids','children','child'], a: {
+    ar: 'نستقبل الأطفال ونحرص على تجربة لطيفة بلا خوف، مع خدمات وقاية وعلاج مناسبة لأعمارهم. احجزوا زيارة تعريفية لطفلكم عبر واتساب.',
+    en: 'We welcome children and make sure their experience is gentle and fear-free, with age-appropriate prevention and treatment. Book an introductory visit via WhatsApp.'}, cards: ['book','wa']},
+  {k: ['سلام','مرحبا','هلا','اهلا','أهلا','hello','hi','hey'], a: {
+    ar: 'أهلاً بك في Smile Design! كيف أستطيع مساعدتك اليوم؟ يمكنك سؤالي عن المواعيد، الخدمات، العنوان أو الحجز.',
+    en: 'Welcome to Smile Design! How can I help you today? Ask me about hours, services, location or booking.'}, cards: ['book']},
+  {k: ['شكرا','ممتاز','تمام','thanks','thank','great'], a: {
+    ar: 'العفو! سعيد بمساعدتك. إذا احتجت أي شيء آخر — حجز أو سؤال عن خدمة — أنا هنا، أو تواصل مع العيادة مباشرة على واتساب.',
+    en: 'You\u2019re welcome! Happy to help. If you need anything else — a booking or a question about a service — I\u2019m here, or reach the clinic directly on WhatsApp.'}, cards: ['wa']},
+];
+const CARDS = {
+  wa:   {ar: '💬 واتساب', en: '💬 WhatsApp', href: WA_LINK},
+  call: {ar: '📞 اتصال', en: '📞 Call', href: 'tel:+201008000172'},
+  maps: {ar: '📍 الاتجاهات', en: '📍 Directions', href: MAPS_LINK},
+  book: {ar: '📅 احجز الآن', en: '📅 Book now', href: '#book'},
+};
+function addMsg(text, who, cards){
+  const d = document.createElement('div');
+  d.className = 'msg ' + who; d.textContent = text;
+  if (cards && cards.length){
+    const row = document.createElement('div'); row.className = 'cards-act';
+    cards.forEach(c => { const a = document.createElement('a'); a.textContent = CARDS[c][LANG]; a.href = CARDS[c].href; if (!CARDS[c].href.startsWith('#')) a.target = '_blank'; row.appendChild(a); });
+    d.appendChild(row);
+  }
+  $('#chatBody').appendChild(d);
+  $('#chatBody').scrollTop = $('#chatBody').scrollHeight;
+}
+function botAnswer(q){
+  const s = ' ' + q.toLowerCase() + ' ';
+  for (const f of FAQ){ if (f.k.some(k => s.includes(k.toLowerCase()))) return {t: f.a[LANG], c: f.cards}; }
+  return {t: LANG === 'ar'
+    ? 'شكراً لسؤالك! هذا السؤال يجيب عنه فريق العيادة بدقة أكبر — تواصل معنا على واتساب وسنرد عليك فوراً، أو اسألني عن المواعيد والخدمات والعنوان والحجز.'
+    : 'Thanks for your question! The clinic team can answer this one best — message us on WhatsApp for an instant reply, or ask me about hours, services, location and booking.', c: ['wa','book']};
+}
+function buildQuick(){
+  const items = LANG === 'ar' ? ['المواعيد','العنوان','حجز موعد','الخدمات','الأسعار'] : ['Hours','Location','Book','Services','Prices'];
+  const row = $('#quickRow'); row.innerHTML = '';
+  items.forEach(t => { const b = document.createElement('button'); b.textContent = t; b.onclick = () => sendChat(t); row.appendChild(b); });
+}
+let greeted = false;
+$('#chatBtn').addEventListener('click', () => {
+  $('#chatWin').classList.toggle('open');
+  if (!greeted){ greeted = true; addMsg(LANG === 'ar' ? 'أهلاً بك في Smile Design! أنا مساعد العيادة الذكي — أجيب فوراً عن المواعيد والخدمات والعنوان والحجز. كيف أخدمك؟' : 'Welcome to Smile Design! I\u2019m the clinic\u2019s smart assistant — I answer instantly about hours, services, location and booking. How can I help?', 'bot', ['book']); }
+});
+function sendChat(text){
+  const v = (text !== undefined ? text : $('#chatInput').value).trim();
+  if (!v) return;
+  addMsg(v, 'me'); $('#chatInput').value = '';
+  const a = botAnswer(v);
+  setTimeout(() => addMsg(a.t, 'bot', a.c), 250);
+}
+$('#chatSend').addEventListener('click', () => sendChat());
+$('#chatInput').addEventListener('keydown', e => { if (e.key === 'Enter') sendChat(); });
+buildQuick();
+</script>
+</body>
+</html>
